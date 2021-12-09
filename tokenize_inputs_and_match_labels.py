@@ -27,8 +27,8 @@ def set_data(file, data):
 data_train = []
 data_validation = []
 
-set_data("/content/drive/MyDrive/Colab Notebooks/data/word/train_word.conll", data_train)
-set_data('/content/drive/MyDrive/Colab Notebooks/data/word/test_word.conll', data_validation)
+set_data("data\word\train_word.conll", data_train)
+set_data('data\word\test_word.conll', data_validation)
 
 
 def appendAll(data):
